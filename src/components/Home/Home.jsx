@@ -14,9 +14,6 @@ const Home = () => {
     const exist=cart.find(ts=>ts._id === tshirt._id)
     if(exist){
         toast("This tshirt is already addeded")
-
-
-
     }
     else{
 
